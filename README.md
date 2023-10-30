@@ -25,8 +25,7 @@ do curso de T.I da instituição CEFET<p/>
 - ` 2`:  versão JDk:11.0.20.1 2023-08-24.
 - `3`:  A arquitetura foi organizada de maneira intuitiva em que classes semelhantes se encontra no mesmo pacote para que assim fique mais organizado e mais fácil de realizar possíveis mudanças durante o andamento do projeto.
 - `4`: O sistema ainda não está completo e se encontra sem conexão com o banco de dados e sem interface gráfica isso será adcionado mais tarde.
-- ` 5`: A arquitetura foi organizada de maneira intuitiva em que classes semelhantes se encontra no mesmo pacote para que assim fique mais organizado e mais fácil de realizar possíveis mudanças durante o andamento do projeto.
-- ` 6`: Foi usado os pacotes padrão do Java
+- `5`: Foi usado os pacotes padrão do Java
 
 <br>
 
@@ -95,6 +94,10 @@ O método público `removerItem()` recebe um parâmetro do tipo Item e remove es
 O método público `getItens()`retorna a lista de itens armazenados na variável de instância privada item.
 
 
+A Classe `Main ` usa a classe Scanner para receber entrada do usuário e a classe Cliente para armazenar informações do cliente. O programa tem três opções: login, cadastro e sair. Se o usuário escolher a opção de login, ele será solicitado a inserir seu email e senha. Se as credenciais estiverem corretas, o usuário será levado a um menu com mais opções, como buscar estabelecimentos, ver o carrinho e ver o pedido. Caso contrário, o usuário receberá uma mensagem de erro. Se o usuário escolher a opção de cadastro, ele será levado a um formulário para inserir suas informações pessoais. Se o usuário escolher a opção de sair, o programa será encerrado.Assim criando um Menu
+
+
+**OBS: O sistema se encontra incompleto**
 
 
 
@@ -118,8 +121,8 @@ O método público `getItens()`retorna a lista de itens armazenados na variável
 
 
 
-## 🔧 Como testar projeto
-Para testar o nosso projeto, você irá precisar do [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)  e de uma IDE que suport3e desenvolvimento em java
+## 🔧 Como testar o projeto?
+Para testar o meu projeto, você irá precisar do [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)  e de uma IDE que suport3e desenvolvimento em java
 no meu caso utilizei o "Eclipse" caso você não tenha instalado nenhuma IDE 
 <br>
 aqui tá algumas opções de IDE! [Eclipse](https://www.eclipse.org/downloads/) <br>
@@ -148,5 +151,4 @@ Este projeto esta sobe a licença [MIT](./LICENSE)
 
 ## 💜 Autora
    
-| [<img src="https://avatars.githubusercontent.com/u/112040400?v=4" width=115><br><sub>Maria Eduarda</sub>](https://github.com/MariaEduardaSM)  | |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/112040400?v=4" width=115><br><sub>Maria Eduarda</sub>](https://github.com/MariaEduardaSM)  
